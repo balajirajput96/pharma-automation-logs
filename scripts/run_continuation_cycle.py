@@ -51,6 +51,25 @@ def gh_json(arguments: list[str]) -> tuple[Any | None, str | None]:
         return None, f"Invalid GitHub CLI JSON: {exc}"
 
 
+def find_unresolved_failures(runs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    latest_success: dict[str, str] = {}
+    for run in runs:
+        if run.get("status") != "completed" or run.get("conclusion") != "success":
+            continue
+        workflow_name = run.get("workflowName")
+        updated_at = run.get("updatedAt", "")
+        if workflow_name and updated_at > latest_success.get(workflow_name, ""):
+            latest_success[workflow_name] = updated_at
+
+    return [
+        run
+        for run in runs
+        if run.get("status") == "completed"
+        and run.get("conclusion") in {"failure", "startup_failure", "timed_out", "action_required"}
+        and latest_success.get(run.get("workflowName"), "") <= run.get("updatedAt", "")
+    ]
+
+
 def collect_repository(repo: dict[str, Any]) -> dict[str, Any]:
     name = repo["name"]
     metadata, metadata_error = gh_json(
@@ -72,18 +91,7 @@ def collect_repository(repo: dict[str, Any]) -> dict[str, Any]:
     focused_runs = [
         run for run in (runs or []) if not workflow_focus or run.get("workflowName") in workflow_focus
     ][:10]
-    latest_success = {
-        run.get("workflowName"): run.get("updatedAt", "")
-        for run in focused_runs
-        if run.get("status") == "completed" and run.get("conclusion") == "success"
-    }
-    unresolved_failures = [
-        run
-        for run in focused_runs
-        if run.get("status") == "completed"
-        and run.get("conclusion") in {"failure", "startup_failure", "timed_out", "action_required"}
-        and latest_success.get(run.get("workflowName"), "") <= run.get("updatedAt", "")
-    ]
+    unresolved_failures = find_unresolved_failures(focused_runs)
     return {
         "repository": name,
         "workflowFocus": sorted(workflow_focus),

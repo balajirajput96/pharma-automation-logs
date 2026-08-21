@@ -22,6 +22,7 @@ print("VALID YAML\t.github/workflows/engineering-continuation.yml")
 for relative in [
     "scripts/run_continuation_cycle.py",
     "scripts/validate_continuation_artifacts.py",
+    "scripts/test_run_continuation_cycle.py",
 ]:
     py_compile.compile(str(ROOT / relative), doraise=True)
     print(f"VALID PYTHON\t{relative}")

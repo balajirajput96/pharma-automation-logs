@@ -2,7 +2,35 @@
   "schemaVersion": 1,
   "mission": "GitHub-centered engineering continuation",
   "cycleLimit": 2400,
+  "scope": {
+    "primary": "master_mission_selected_repositories",
+    "primaryRepositoryCount": 15,
+    "historicalTargetsRetained": true,
+    "collectionOnly": true,
+    "note": "The primary list mirrors the saved master mission. Historical n8n, acting-career-automation, and vscode-copilot-chat targets are retained for continuity; collection is read-only and never dispatches or mutates target workflows."
+  },
   "repositories": [
+    { "name": "balajirajput96/ai-automation-platform", "workflows": [] },
+    { "name": "balajirajput96/job-automation-orchestrator", "workflows": [] },
+    { "name": "balajirajput96/antigravity-pharma-dashboard", "workflows": [] },
+    { "name": "balajirajput96/career-monitoring-hub", "workflows": [] },
+    { "name": "balajirajput96/gmail-resume-mailer", "workflows": [] },
+    { "name": "balajirajput96/automation-control-center", "workflows": [] },
+    { "name": "balajirajput96/health-reels-automation", "workflows": [] },
+    { "name": "balajirajput96/automation-control-center-app", "workflows": [] },
+    {
+      "name": "balajirajput96/acting-career-automation",
+      "workflows": [
+        "Toolkit Health Check",
+        "Generate Drafts for New Leads"
+      ]
+    },
+    { "name": "balajirajput96/pharma-outreach-automation", "workflows": [] },
+    { "name": "balajirajput96/daily-research-reels-automation", "workflows": [] },
+    { "name": "balajirajput96/pharma-qa-job-tracker", "workflows": [] },
+    { "name": "balajirajput96/neuro-pulse-content-studio", "workflows": [] },
+    { "name": "balajirajput96/github-dashboard", "workflows": [] },
+    { "name": "balajirajput96/pharma-automation-logs", "workflows": [] },
     {
       "name": "balajirajput96/n8n",
       "workflows": [
@@ -13,17 +41,8 @@
       ]
     },
     {
-      "name": "balajirajput96/acting-career-automation",
-      "workflows": [
-        "Toolkit Health Check",
-        "Generate Drafts for New Leads"
-      ]
-    },
-    {
       "name": "balajirajput96/vscode-copilot-chat",
-      "workflows": [
-        "PR Checks"
-      ]
+      "workflows": ["PR Checks"]
     }
   ],
   "safety": {
@@ -31,6 +50,6 @@
     "autoModifyExternalRepositories": false,
     "autoPublishContent": false,
     "autoChangeSecrets": false,
-    "reason": "Each completed failure must be inspected before a repair or rerun is authorized."
+    "reason": "Each completed failure must be inspected before a repair or rerun is authorized. The collector only reads repository metadata and recent workflow metadata; it never dispatches workflows or changes target repositories."
   }
 }
