@@ -1,0 +1,306 @@
+{
+  "capturedAt": "2026-08-21T03:04:46Z",
+  "cycle": 4,
+  "cycleLimit": 2400,
+  "mission": "GitHub-centered engineering continuation",
+  "repositories": [
+    {
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "master"
+        },
+        "isPrivate": false,
+        "updatedAt": "2026-08-20T14:35:08Z",
+        "url": "https://github.com/balajirajput96/n8n"
+      },
+      "metadataError": null,
+      "recentRuns": [
+        {
+          "conclusion": "",
+          "createdAt": "2026-08-21T01:08:07Z",
+          "databaseId": 32435224713,
+          "headSha": "220369bf220b0c4b10c07e36338179cdbd02f202",
+          "status": "queued",
+          "updatedAt": "2026-08-21T01:08:28Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/32435224713",
+          "workflowName": "Docker: Build and Push"
+        },
+        {
+          "conclusion": "",
+          "createdAt": "2026-08-20T14:28:49Z",
+          "databaseId": 32380375586,
+          "headSha": "220369bf220b0c4b10c07e36338179cdbd02f202",
+          "status": "queued",
+          "updatedAt": "2026-08-20T14:39:41Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/32380375586",
+          "workflowName": "Docker: Build and Push"
+        },
+        {
+          "conclusion": "",
+          "createdAt": "2026-08-20T14:28:41Z",
+          "databaseId": 32380363214,
+          "headSha": "220369bf220b0c4b10c07e36338179cdbd02f202",
+          "status": "queued",
+          "updatedAt": "2026-08-20T14:28:41Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/32380363214",
+          "workflowName": "CI: Master (Build, Test, Lint)"
+        }
+      ],
+      "repository": "balajirajput96/n8n",
+      "runsError": null,
+      "unresolvedFailures": [],
+      "workflowFocus": [
+        "Build: Node PC Image",
+        "CI: Master (Build, Test, Lint)",
+        "Docker: Build and Push",
+        "Test: E2E Coverage Nightly"
+      ]
+    },
+    {
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "isPrivate": true,
+        "updatedAt": "2026-08-21T00:37:49Z",
+        "url": "https://github.com/balajirajput96/acting-career-automation"
+      },
+      "metadataError": null,
+      "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-20T18:38:00Z",
+          "databaseId": 32404262370,
+          "headSha": "b82186a672952b90bba11f976c9646f0d50b743d",
+          "status": "completed",
+          "updatedAt": "2026-08-20T18:45:31Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32404262370",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-20T18:03:53Z",
+          "databaseId": 32401111055,
+          "headSha": "875f2f7a87e252d754dfb290940ed1ed81ebb610",
+          "status": "completed",
+          "updatedAt": "2026-08-20T18:04:07Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32401111055",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-20T03:37:10Z",
+          "databaseId": 32328882954,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-20T03:37:26Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32328882954",
+          "workflowName": "Generate Drafts for New Leads"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-20T03:23:29Z",
+          "databaseId": 32328056334,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-20T03:23:40Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32328056334",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T10:26:58Z",
+          "databaseId": 32242726165,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T10:32:58Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32242726165",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T09:58:14Z",
+          "databaseId": 32240321530,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T10:01:08Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32240321530",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T08:41:52Z",
+          "databaseId": 32233871258,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T08:52:55Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32233871258",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T07:39:19Z",
+          "databaseId": 32228827721,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T08:00:26Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32228827721",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T06:56:03Z",
+          "databaseId": 32225516371,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T06:57:26Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32225516371",
+          "workflowName": "Toolkit Health Check"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T06:39:13Z",
+          "databaseId": 32224318627,
+          "headSha": "bf0aaca9e4f2688dcdfcc924f2fb3f90446d45e3",
+          "status": "completed",
+          "updatedAt": "2026-08-19T06:41:29Z",
+          "url": "https://github.com/balajirajput96/acting-career-automation/actions/runs/32224318627",
+          "workflowName": "Toolkit Health Check"
+        }
+      ],
+      "repository": "balajirajput96/acting-career-automation",
+      "runsError": null,
+      "unresolvedFailures": [],
+      "workflowFocus": [
+        "Generate Drafts for New Leads",
+        "Toolkit Health Check"
+      ]
+    },
+    {
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "isPrivate": false,
+        "updatedAt": "2026-08-19T10:45:31Z",
+        "url": "https://github.com/balajirajput96/vscode-copilot-chat"
+      },
+      "metadataError": null,
+      "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-19T10:44:48Z",
+          "databaseId": 32244179877,
+          "headSha": "55968e08f4ad19d3e8069839330e9716244e3538",
+          "status": "completed",
+          "updatedAt": "2026-08-19T12:40:14Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32244179877",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-18T07:08:09Z",
+          "databaseId": 32110013013,
+          "headSha": "2498b1aab451768c82f6d779bf891e25df5b9ec6",
+          "status": "completed",
+          "updatedAt": "2026-08-19T01:43:05Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32110013013",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-18T07:07:45Z",
+          "databaseId": 32109981876,
+          "headSha": "bdc26c0fccf2a6e7f8c95bf5cc691aeec3fea338",
+          "status": "completed",
+          "updatedAt": "2026-08-18T07:32:20Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32109981876",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-18T07:07:18Z",
+          "databaseId": 32109946775,
+          "headSha": "930b2af7e6c72c3d1025c0bcf15c9e5270903a07",
+          "status": "completed",
+          "updatedAt": "2026-08-18T07:26:41Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32109946775",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-18T06:51:40Z",
+          "databaseId": 32108748190,
+          "headSha": "20100cc58869da4b89427e2c77d68b18f71e6928",
+          "status": "completed",
+          "updatedAt": "2026-08-18T07:10:41Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32108748190",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "cancelled",
+          "createdAt": "2026-08-17T11:34:05Z",
+          "databaseId": 32025544033,
+          "headSha": "20100cc58869da4b89427e2c77d68b18f71e6928",
+          "status": "completed",
+          "updatedAt": "2026-08-17T11:49:58Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32025544033",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-08-17T11:17:20Z",
+          "databaseId": 32024222406,
+          "headSha": "2498b1aab451768c82f6d779bf891e25df5b9ec6",
+          "status": "completed",
+          "updatedAt": "2026-08-17T11:35:59Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32024222406",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "failure",
+          "createdAt": "2026-08-17T10:53:59Z",
+          "databaseId": 32022328077,
+          "headSha": "52736043b1b3714e04574ace47f53756b15d1fcb",
+          "status": "completed",
+          "updatedAt": "2026-08-17T11:12:53Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32022328077",
+          "workflowName": "PR Checks"
+        },
+        {
+          "conclusion": "failure",
+          "createdAt": "2026-08-17T10:38:39Z",
+          "databaseId": 32021128269,
+          "headSha": "b9d723a90ace75d5dda89968941ed3d6d00ac595",
+          "status": "completed",
+          "updatedAt": "2026-08-17T10:53:51Z",
+          "url": "https://github.com/balajirajput96/vscode-copilot-chat/actions/runs/32021128269",
+          "workflowName": "PR Checks"
+        }
+      ],
+      "repository": "balajirajput96/vscode-copilot-chat",
+      "runsError": null,
+      "unresolvedFailures": [],
+      "workflowFocus": [
+        "PR Checks"
+      ]
+    }
+  ],
+  "repositoriesWithAccessErrors": [],
+  "safety": {
+    "autoChangeSecrets": false,
+    "autoModifyExternalRepositories": false,
+    "autoPublishContent": false,
+    "autoRetryFailures": false,
+    "reason": "Each completed failure must be inspected before a repair or rerun is authorized."
+  },
+  "schemaVersion": 1,
+  "status": "healthy",
+  "summary": {
+    "failure": 0,
+    "in_progress": 0,
+    "other": 1,
+    "queued": 3,
+    "success": 16
+  }
+}

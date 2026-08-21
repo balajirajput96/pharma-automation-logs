@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "mission": "GitHub-centered engineering continuation",
+  "cycleLimit": 2400,
+  "repositories": [
+    {
+      "name": "balajirajput96/n8n",
+      "workflows": [
+        "CI: Master (Build, Test, Lint)",
+        "Docker: Build and Push",
+        "Test: E2E Coverage Nightly",
+        "Build: Node PC Image"
+      ]
+    },
+    {
+      "name": "balajirajput96/acting-career-automation",
+      "workflows": [
+        "Toolkit Health Check",
+        "Generate Drafts for New Leads"
+      ]
+    },
+    {
+      "name": "balajirajput96/vscode-copilot-chat",
+      "workflows": [
+        "PR Checks"
+      ]
+    }
+  ],
+  "safety": {
+    "autoRetryFailures": false,
+    "autoModifyExternalRepositories": false,
+    "autoPublishContent": false,
+    "autoChangeSecrets": false,
+    "reason": "Each completed failure must be inspected before a repair or rerun is authorized."
+  }
+}
