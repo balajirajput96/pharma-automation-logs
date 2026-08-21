@@ -36,7 +36,9 @@ jobs:
 
       - name: Commit state record
         if: ${{ github.event_name != 'pull_request' }}
+        shell: bash
         run: |
+          set -euo pipefail
           if git diff --quiet -- state/; then
             echo "No state record changes to commit."
             exit 0
@@ -46,12 +48,19 @@ jobs:
           git add state/
           git commit -m "chore: record engineering continuation cycle"
           for attempt in 1 2 3; do
-            git pull --rebase origin main
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "State rebase conflict; refusing to push an ambiguous record." >&2
+              exit 1
+            fi
             if git push origin HEAD:main; then
+              echo "State record pushed on attempt $attempt."
               exit 0
             fi
-            echo "Push race detected; retrying (attempt ${attempt}/3)."
-            sleep "$((attempt * 2))"
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 5))
+            fi
           done
-          echo "Unable to publish the state record after bounded retries."
+          echo "State push failed after bounded retries." >&2
           exit 1
