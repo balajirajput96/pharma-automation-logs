@@ -1,0 +1,27 @@
+name: Validate Continuation Change
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/engineering-continuation.yml'
+      - 'scripts/validate_engineering_continuation.py'
+      - '.github/workflows/validate-continuation-change.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12'
+
+      - name: Validate bounded state-push contract
+        run: python3 scripts/validate_engineering_continuation.py
