@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "mission": "GitHub-centered engineering continuation",
+  "cycle": 23,
+  "capturedAt": "2026-08-21T18:59:23Z",
+  "status": "remote_concurrent_writer_observed",
+  "repository": "balajirajput96/autonomous-engineering-maintenance",
+  "stateBranch": "maintenance-state",
+  "localProbe": {
+    "cycle": 20,
+    "repositoryCount": 251,
+    "openPullRequestCount": 306,
+    "clean": 287,
+    "nonClean": 19,
+    "conflicting": 0,
+    "errors": 0,
+    "evidenceFile": "/home/ubuntu/mission-resume/cycle-20-pr-inventory.json",
+    "publicationCommit": "4e7a2fa9004b8b1df95cf4c984b8386b803d623e"
+  },
+  "remoteAuthoritativeAfterVerification": {
+    "latestCommit": "7f3e7f5",
+    "cycle": 20,
+    "repositoryCount": 218,
+    "openPullRequestCount": 304,
+    "clean": 285,
+    "nonClean": 19,
+    "conflicting": 0,
+    "errors": 0
+  },
+  "interpretation": "A scheduled writer advanced maintenance-state after the local publication and produced a different cycle-20 snapshot. The remote branch’s latest commit is authoritative for continuation; the local 251/306 probe is retained as evidence only.",
+  "repairDecision": "not_applied",
+  "reason": "Do not overwrite or force-push the dedicated state branch, and do not bypass its existing automation or review/policy boundaries. The next cycle must reload remote maintenance-state before collecting again.",
+  "nextContinuation": {
+    "loadRemoteStateFirst": true,
+    "nextMaintenanceCycle": 21,
+    "preserveBothSnapshots": true,
+    "noForcePush": true
+  }
+}
