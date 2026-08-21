@@ -43,4 +43,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state/
           git commit -m "chore: record engineering continuation cycle"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push race detected; retrying (attempt ${attempt}/3)."
+            sleep "$((attempt * 2))"
+          done
+          echo "Unable to publish the state record after bounded retries."
+          exit 1
