@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-21T23:24:33Z",
-  "cycle": 28,
+  "capturedAt": "2026-08-22T01:14:52Z",
+  "cycle": 29,
   "cycleLimit": 2400,
   "mission": "GitHub-centered engineering continuation",
   "repositories": [
@@ -247,7 +247,7 @@
           "name": "main"
         },
         "isPrivate": true,
-        "updatedAt": "2026-08-21T22:25:46Z",
+        "updatedAt": "2026-08-21T23:24:51Z",
         "url": "https://github.com/balajirajput96/pharma-automation-logs"
       },
       "metadataError": null,
@@ -268,6 +268,16 @@
       },
       "metadataError": null,
       "recentRuns": [
+        {
+          "conclusion": "startup_failure",
+          "createdAt": "2026-08-22T01:04:17Z",
+          "databaseId": 32542333897,
+          "headSha": "68af19f4e850f4b757c0ace51a00633efda2645c",
+          "status": "completed",
+          "updatedAt": "2026-08-22T01:04:17Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/32542333897",
+          "workflowName": "Docker: Build and Push"
+        },
         {
           "conclusion": "success",
           "createdAt": "2026-08-21T15:33:03Z",
@@ -291,7 +301,18 @@
       ],
       "repository": "balajirajput96/n8n",
       "runsError": null,
-      "unresolvedFailures": [],
+      "unresolvedFailures": [
+        {
+          "conclusion": "startup_failure",
+          "createdAt": "2026-08-22T01:04:17Z",
+          "databaseId": 32542333897,
+          "headSha": "68af19f4e850f4b757c0ace51a00633efda2645c",
+          "status": "completed",
+          "updatedAt": "2026-08-22T01:04:17Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/32542333897",
+          "workflowName": "Docker: Build and Push"
+        }
+      ],
       "workflowFocus": [
         "Build: Node PC Image",
         "CI: Master (Build, Test, Lint)",
@@ -435,7 +456,7 @@
   "schemaVersion": 1,
   "status": "degraded",
   "summary": {
-    "failure": 0,
+    "failure": 1,
     "in_progress": 0,
     "other": 2,
     "queued": 0,
