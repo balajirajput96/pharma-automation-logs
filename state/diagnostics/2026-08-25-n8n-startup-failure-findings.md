@@ -52,3 +52,10 @@ Implemented and locally validated workflow/dependency fixes:
 Acting-career-automation historical failures were also refreshed from logs. The earlier 403 issue-list failures and `follow_up_tracker.py` syntax error are already remediated on current `main`: workflows have `issues: write`, both relevant scripts compile, and the latest Draft Generation (`32805950275`), Follow-up (`32809402149`), and Toolkit Health (`32805105859`) runs concluded `success`. No duplicate change was made.
 
 Validation state at record time: fresh n8n PR CI run `32881329640` is active after the no-test repair; it has passed parsing, is running Typecheck and Backend Integration Tests, and has no new completed failure yet. The PR's standalone legacy `CLA Check` status remains failed for the existing `1 unlinked commit(s)` policy reason; the workflow CLA job itself succeeds and no policy weakening or secret change was applied.
+
+
+## Latest validation result — run 32881329640
+
+The current run parsed and executed. Its Typecheck job completed with `success` at 18:16:30 UTC, confirming that the markdown-it compatibility fix removed the previously observed Typecheck failure. The Backend Integration job reached the scoped CLI stage and its optional Codecov uploads were skipped as intended when no token was available.
+
+The remaining failure is confined to `n8n#test:integration:changed`. The job invokes `janitor test-scoped` with the integration config after a global change trigger. Vitest reports `No test files found, exiting with code 0` after the added option, but subsequently loads `@n8n/backend-test-utils`, accesses Vitest's worker state, and exits 1 with `Vitest failed to access its internal state`. This is no longer a Codecov, action-policy, parser, typecheck, or secret issue. The repository contains CLI integration test files locally, while the hosted invocation still selects none; the job therefore needs a project-native Janitor/Vitest scope-selection correction rather than another workflow retry or a test-suppressing `continue-on-error` change. No such suppression was added.
