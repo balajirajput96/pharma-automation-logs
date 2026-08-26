@@ -4,7 +4,7 @@ from __future__ import annotations
 from run_continuation_cycle import find_unresolved_failures
 
 
-def run() -> None:
+def test_find_unresolved_failures() -> None:
     out_of_order_runs = [
         {
             "workflowName": "Verify application",
@@ -37,6 +37,9 @@ def run() -> None:
     ]
     assert len(find_unresolved_failures(unresolved_runs)) == 1
 
+
+def run() -> None:
+    test_find_unresolved_failures()
     print("continuation failure classification tests: PASS")
 
 
