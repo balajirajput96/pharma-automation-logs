@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-10-14T01:39:11Z",
-  "cycle": 355,
+  "capturedAt": "2026-10-14T07:12:19Z",
+  "cycle": 356,
   "cycleLimit": 2400,
   "mission": "GitHub-centered engineering continuation",
   "repositories": [
@@ -14,9 +14,110 @@
         "url": "https://github.com/balajirajput96/ai-automation-platform"
       },
       "metadataError": null,
-      "recentRuns": [],
+      "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-10T13:12:30Z",
+          "databaseId": 38054835171,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-10T13:13:17Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/38054835171",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T10:17:20Z",
+          "databaseId": 37295619743,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T10:18:09Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37295619743",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T10:14:32Z",
+          "databaseId": 37295306591,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T10:15:24Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37295306591",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T10:00:17Z",
+          "databaseId": 37293727921,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T10:01:10Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37293727921",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T07:49:16Z",
+          "databaseId": 37279887806,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T07:50:08Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37279887806",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T07:35:36Z",
+          "databaseId": 37278608039,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T07:36:27Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37278608039",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T07:35:26Z",
+          "databaseId": 37278593288,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T07:36:16Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37278593288",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T07:34:05Z",
+          "databaseId": 37278460050,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T07:35:02Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37278460050",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T03:03:22Z",
+          "databaseId": 37257838000,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T03:04:12Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37257838000",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T00:29:34Z",
+          "databaseId": 37247725286,
+          "headSha": "ba1810c9a72f35fbdfdfa2eee9e85cd29b3d7419",
+          "status": "completed",
+          "updatedAt": "2026-10-05T00:30:22Z",
+          "url": "https://github.com/balajirajput96/ai-automation-platform/actions/runs/37247725286",
+          "workflowName": "Dependabot Updates"
+        }
+      ],
       "repository": "balajirajput96/ai-automation-platform",
-      "runsError": "failed to get runs: HTTP 500: 500 Internal Server Error (https://api.github.com/repos/balajirajput96/ai-automation-platform/actions/runs?exclude_pull_requests=true&per_page=20)",
+      "runsError": null,
       "unresolvedFailures": [],
       "workflowFocus": []
     },
@@ -31,6 +132,16 @@
       },
       "metadataError": null,
       "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T02:48:22Z",
+          "databaseId": 38502950692,
+          "headSha": "44945c7cf88a45cfab819ebc6c35f155254d9c8b",
+          "status": "completed",
+          "updatedAt": "2026-10-14T02:48:59Z",
+          "url": "https://github.com/balajirajput96/job-automation-orchestrator/actions/runs/38502950692",
+          "workflowName": "Hourly deterministic maintenance"
+        },
         {
           "conclusion": "success",
           "createdAt": "2026-10-13T23:31:46Z",
@@ -119,16 +230,6 @@
           "status": "completed",
           "updatedAt": "2026-10-12T06:03:13Z",
           "url": "https://github.com/balajirajput96/job-automation-orchestrator/actions/runs/38210613076",
-          "workflowName": "Dependabot Updates"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-12T06:02:14Z",
-          "databaseId": 38210612716,
-          "headSha": "44945c7cf88a45cfab819ebc6c35f155254d9c8b",
-          "status": "completed",
-          "updatedAt": "2026-10-12T06:03:05Z",
-          "url": "https://github.com/balajirajput96/job-automation-orchestrator/actions/runs/38210612716",
           "workflowName": "Dependabot Updates"
         }
       ],
@@ -264,9 +365,110 @@
         "url": "https://github.com/balajirajput96/career-monitoring-hub"
       },
       "metadataError": null,
-      "recentRuns": [],
+      "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-06T02:13:12Z",
+          "databaseId": 37403060902,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-06T02:14:05Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37403060902",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-06T02:09:33Z",
+          "databaseId": 37402765075,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-06T02:10:21Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37402765075",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-06T01:55:21Z",
+          "databaseId": 37401594721,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-06T01:56:11Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37401594721",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-06T00:03:50Z",
+          "databaseId": 37391965747,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-06T00:04:43Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37391965747",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T23:47:27Z",
+          "databaseId": 37390485586,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-05T23:48:18Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37390485586",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T23:46:48Z",
+          "databaseId": 37390424339,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-05T23:47:41Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37390424339",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T18:13:11Z",
+          "databaseId": 37354287048,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-05T18:14:02Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37354287048",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T15:10:25Z",
+          "databaseId": 37330648235,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-05T15:11:21Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37330648235",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-05T11:39:44Z",
+          "databaseId": 37304364717,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-10-05T11:40:40Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/37304364717",
+          "workflowName": "Dependabot Updates"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-09-30T10:44:03Z",
+          "databaseId": 36704204832,
+          "headSha": "be81a303a5b3cd7d3edcaeefea29d84cc93fbd5f",
+          "status": "completed",
+          "updatedAt": "2026-09-30T10:44:59Z",
+          "url": "https://github.com/balajirajput96/career-monitoring-hub/actions/runs/36704204832",
+          "workflowName": "Dependabot Updates"
+        }
+      ],
       "repository": "balajirajput96/career-monitoring-hub",
-      "runsError": "failed to get runs: HTTP 500: 500 Internal Server Error (https://api.github.com/repos/balajirajput96/career-monitoring-hub/actions/runs?exclude_pull_requests=true&per_page=20)",
+      "runsError": null,
       "unresolvedFailures": [],
       "workflowFocus": []
     },
@@ -400,6 +602,16 @@
       "recentRuns": [
         {
           "conclusion": "success",
+          "createdAt": "2026-10-14T05:51:05Z",
+          "databaseId": 38518863549,
+          "headSha": "5e72d50114cfb40ef44b080d507c25adc670c752",
+          "status": "completed",
+          "updatedAt": "2026-10-14T05:51:21Z",
+          "url": "https://github.com/balajirajput96/automation-control-center/actions/runs/38518863549",
+          "workflowName": "Hourly GitHub audit continuation"
+        },
+        {
+          "conclusion": "success",
           "createdAt": "2026-10-14T00:53:25Z",
           "databaseId": 38492689426,
           "headSha": "5e72d50114cfb40ef44b080d507c25adc670c752",
@@ -487,16 +699,6 @@
           "updatedAt": "2026-10-12T08:40:10Z",
           "url": "https://github.com/balajirajput96/automation-control-center/actions/runs/38224957908",
           "workflowName": "Hourly GitHub audit continuation"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-12T01:01:03Z",
-          "databaseId": 38190242444,
-          "headSha": "5e72d50114cfb40ef44b080d507c25adc670c752",
-          "status": "completed",
-          "updatedAt": "2026-10-12T01:01:15Z",
-          "url": "https://github.com/balajirajput96/automation-control-center/actions/runs/38190242444",
-          "workflowName": "Hourly GitHub audit continuation"
         }
       ],
       "repository": "balajirajput96/automation-control-center",
@@ -515,6 +717,36 @@
       },
       "metadataError": null,
       "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T05:24:48Z",
+          "databaseId": 38516494442,
+          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
+          "status": "completed",
+          "updatedAt": "2026-10-14T05:25:16Z",
+          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38516494442",
+          "workflowName": "Reel queue continuation"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T05:10:24Z",
+          "databaseId": 38515213240,
+          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
+          "status": "completed",
+          "updatedAt": "2026-10-14T05:10:45Z",
+          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38515213240",
+          "workflowName": "Daily Repository Maintenance"
+        },
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T05:08:14Z",
+          "databaseId": 38515021727,
+          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
+          "status": "completed",
+          "updatedAt": "2026-10-14T05:08:38Z",
+          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38515021727",
+          "workflowName": "Daily Automation Audit"
+        },
         {
           "conclusion": "success",
           "createdAt": "2026-10-13T07:06:54Z",
@@ -584,36 +816,6 @@
           "updatedAt": "2026-10-11T06:28:04Z",
           "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38118136557",
           "workflowName": "Reel queue continuation"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-11T06:09:07Z",
-          "databaseId": 38117119513,
-          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
-          "status": "completed",
-          "updatedAt": "2026-10-11T06:09:27Z",
-          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38117119513",
-          "workflowName": "Daily Repository Maintenance"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-11T06:04:52Z",
-          "databaseId": 38116886296,
-          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
-          "status": "completed",
-          "updatedAt": "2026-10-11T06:05:41Z",
-          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38116886296",
-          "workflowName": "Daily Automation Audit"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-10T06:23:26Z",
-          "databaseId": 38030761028,
-          "headSha": "5e202672cb185563198e6fed0042b604575939d3",
-          "status": "completed",
-          "updatedAt": "2026-10-10T06:23:41Z",
-          "url": "https://github.com/balajirajput96/health-reels-automation/actions/runs/38030761028",
-          "workflowName": "Reel queue continuation"
         }
       ],
       "repository": "balajirajput96/health-reels-automation",
@@ -632,6 +834,16 @@
       },
       "metadataError": null,
       "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T02:35:06Z",
+          "databaseId": 38501797841,
+          "headSha": "c53f1a88a405b36505a84c18aa26ec968ed7e419",
+          "status": "completed",
+          "updatedAt": "2026-10-14T02:35:27Z",
+          "url": "https://github.com/balajirajput96/automation-control-center-app/actions/runs/38501797841",
+          "workflowName": "Hourly Engineering Continuation"
+        },
         {
           "conclusion": "success",
           "createdAt": "2026-10-13T23:29:32Z",
@@ -721,16 +933,6 @@
           "updatedAt": "2026-10-12T12:19:34Z",
           "url": "https://github.com/balajirajput96/automation-control-center-app/actions/runs/38248279692",
           "workflowName": "Automation Control Center Health"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-12T10:50:18Z",
-          "databaseId": 38238815393,
-          "headSha": "c53f1a88a405b36505a84c18aa26ec968ed7e419",
-          "status": "completed",
-          "updatedAt": "2026-10-12T10:50:31Z",
-          "url": "https://github.com/balajirajput96/automation-control-center-app/actions/runs/38238815393",
-          "workflowName": "GitHub Health Inventory"
         }
       ],
       "repository": "balajirajput96/automation-control-center-app",
@@ -891,11 +1093,21 @@
           "name": "main"
         },
         "isPrivate": false,
-        "updatedAt": "2026-10-14T00:58:28Z",
+        "updatedAt": "2026-10-14T06:01:16Z",
         "url": "https://github.com/balajirajput96/daily-research-reels-automation"
       },
       "metadataError": null,
       "recentRuns": [
+        {
+          "conclusion": "success",
+          "createdAt": "2026-10-14T06:01:03Z",
+          "databaseId": 38519778036,
+          "headSha": "a8485b6f15232934499d39d5d2896eb864629462",
+          "status": "completed",
+          "updatedAt": "2026-10-14T06:01:14Z",
+          "url": "https://github.com/balajirajput96/daily-research-reels-automation/actions/runs/38519778036",
+          "workflowName": "Hourly research reel continuation"
+        },
         {
           "conclusion": "success",
           "createdAt": "2026-10-14T00:58:14Z",
@@ -984,16 +1196,6 @@
           "status": "completed",
           "updatedAt": "2026-10-12T07:05:20Z",
           "url": "https://github.com/balajirajput96/daily-research-reels-automation/actions/runs/38215804818",
-          "workflowName": "Hourly research reel continuation"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-12T00:18:49Z",
-          "databaseId": 38187521429,
-          "headSha": "153bd04680e3529cd2791a6f339eff7aa02c21f8",
-          "status": "completed",
-          "updatedAt": "2026-10-12T00:19:00Z",
-          "url": "https://github.com/balajirajput96/daily-research-reels-automation/actions/runs/38187521429",
           "workflowName": "Hourly research reel continuation"
         }
       ],
@@ -1440,18 +1642,28 @@
           "name": "main"
         },
         "isPrivate": false,
-        "updatedAt": "2026-10-13T22:36:26Z",
+        "updatedAt": "2026-10-14T01:39:17Z",
         "url": "https://github.com/balajirajput96/pharma-automation-logs"
       },
       "metadataError": null,
       "recentRuns": [
         {
           "conclusion": "",
+          "createdAt": "2026-10-14T07:11:22Z",
+          "databaseId": 38526722669,
+          "headSha": "65e8cdd2dcc98e5dfa28d48848d4f88efffe18f0",
+          "status": "in_progress",
+          "updatedAt": "2026-10-14T07:11:27Z",
+          "url": "https://github.com/balajirajput96/pharma-automation-logs/actions/runs/38526722669",
+          "workflowName": "Engineering Continuation"
+        },
+        {
+          "conclusion": "success",
           "createdAt": "2026-10-14T01:38:26Z",
           "databaseId": 38496813424,
           "headSha": "cf7ead85a34c81f30b681725d4f2a68d24d26793",
-          "status": "in_progress",
-          "updatedAt": "2026-10-14T01:38:30Z",
+          "status": "completed",
+          "updatedAt": "2026-10-14T01:39:16Z",
           "url": "https://github.com/balajirajput96/pharma-automation-logs/actions/runs/38496813424",
           "workflowName": "Engineering Continuation"
         },
@@ -1534,16 +1746,6 @@
           "updatedAt": "2026-10-11T22:42:52Z",
           "url": "https://github.com/balajirajput96/pharma-automation-logs/actions/runs/38181450615",
           "workflowName": "Engineering Continuation"
-        },
-        {
-          "conclusion": "success",
-          "createdAt": "2026-10-11T18:39:05Z",
-          "databaseId": 38164703905,
-          "headSha": "bce2857a4c18452511af00c541f99393c100878c",
-          "status": "completed",
-          "updatedAt": "2026-10-11T18:39:56Z",
-          "url": "https://github.com/balajirajput96/pharma-automation-logs/actions/runs/38164703905",
-          "workflowName": "Engineering Continuation"
         }
       ],
       "repository": "balajirajput96/pharma-automation-logs",
@@ -1561,7 +1763,18 @@
         "url": "https://github.com/balajirajput96/n8n"
       },
       "metadataError": null,
-      "recentRuns": [],
+      "recentRuns": [
+        {
+          "conclusion": "",
+          "createdAt": "2026-10-14T03:30:06Z",
+          "databaseId": 38506567339,
+          "headSha": "4bee332eba9a15a3e05860b3580c84a1e896757f",
+          "status": "queued",
+          "updatedAt": "2026-10-14T03:30:20Z",
+          "url": "https://github.com/balajirajput96/n8n/actions/runs/38506567339",
+          "workflowName": "Docker: Build and Push"
+        }
+      ],
       "repository": "balajirajput96/n8n",
       "runsError": null,
       "unresolvedFailures": [],
@@ -1672,10 +1885,7 @@
       ]
     }
   ],
-  "repositoriesWithAccessErrors": [
-    "balajirajput96/ai-automation-platform",
-    "balajirajput96/career-monitoring-hub"
-  ],
+  "repositoriesWithAccessErrors": [],
   "safety": {
     "autoChangeSecrets": false,
     "autoModifyExternalRepositories": false,
@@ -1684,12 +1894,12 @@
     "reason": "Each completed failure must be inspected before a repair or rerun is authorized. The collector only reads repository metadata and recent workflow metadata; it never dispatches workflows or changes target repositories."
   },
   "schemaVersion": 1,
-  "status": "degraded",
+  "status": "healthy",
   "summary": {
     "failure": 8,
     "in_progress": 1,
     "other": 1,
-    "queued": 0,
-    "success": 117
+    "queued": 1,
+    "success": 137
   }
 }
